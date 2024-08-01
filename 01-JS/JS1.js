@@ -4,7 +4,8 @@
 /* eslint-disable prefer-const */
 
 //1
-name = prompt("ваше имя", "дима");
+let
+    name = prompt("ваше имя", "дима");
 alert("привет,"+name)
 
 
@@ -57,6 +58,10 @@ alert(`Вы сможете купить ${chocolates} шоколадок, сда
 let
     threeDigitNumber = +prompt('Введите трехзначное число', 654);
 alert('Число задом наперед: ' + reverse3digitNumber(threeDigitNumber));
+
+//10
+const num = prompt("введите любое число");
+num % 2 == 0 ? alert(`число ${num} четное`):alert(` число ${num} нечетное`)
 
 // дальше объявления функций  
 function age(birth) {
